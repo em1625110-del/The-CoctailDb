@@ -1,0 +1,150 @@
+/* Improving visualization in light mode */
+.food-1 {
+  max-width: 1240px !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 43px 70px;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  border-bottom: 1px solid #e0e0e0; /* Изменен цвет границы для светлого режима */
+  
+}
+.meals {
+  width: 240px !important;
+  height: 340px;
+  position: relative;
+  text-align: center;
+  /* Добавлен белый фон для карточки */
+  border-radius: 8px; /* Закругленные углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+  transition: box-shadow 0.3s ease; /* Плавное изменение тени */
+}
+
+.meals:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Увеличенная тень при наведении */
+}
+
+.meals div {
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.meal-img {
+  filter: brightness(100%);
+  transition: transform 0.5s ease, filter 0.5s ease;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.meal-img:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+  transform: scale(1.07);
+}
+
+.meals h2 {
+  color: #D57D1F;
+  transition: color 0.3s ease;
+  margin: 10px 0; /* Добавлен отступ для текста */
+}
+
+.meals h2:hover {
+  color: #FF9933;
+}
+
+/* Адаптивность для экранов меньше 1200px */
+@media (max-width: 1200px) {
+  .food {
+      padding: 50px 40px;
+  }
+
+  .meals {
+      width: 280px;
+  }
+}
+
+/* Адаптивность для экранов меньше 992px */
+@media (max-width: 992px) {
+  .food {
+      padding: 40px 30px;
+      gap: 10px 15px;
+  }
+
+  .meals {
+      height: auto;
+  }
+
+  .meal-img {
+      height: 200px;
+  }
+}
+
+/* Адаптивность для экранов меньше 768px */
+@media (max-width: 768px) {
+  .food {
+      padding: 30px 20px;
+      gap: 25px;
+  }
+
+  .meals {
+      width: 100%;
+      padding: 0 10px;
+      border: none;
+  }
+
+  .meal-img {
+      height: 180px;
+  }
+}
+
+/* Адаптивность для экранов меньше 480px */
+@media (max-width: 480px) {
+  .food {
+      padding: 20px 10px;
+  }
+
+  .meals {
+      padding: 0;
+  }
+
+  .meal-img {
+      height: 150px;
+  }
+
+  .meals h2 {
+      font-size: 1.2em;
+  }
+}
+  
+  .food-2{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 63px 40px;
+    align-items: center;
+    text-align: center;
+    gap: 10px 60px;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .food-2 img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+  }
+  
+  .food-2 h3{
+    color: #D57D1F;
+    transition: color 0.3s ease;
+  }
+  
+  .food-2 h3:hover{
+    color: #FF9933;
+  }

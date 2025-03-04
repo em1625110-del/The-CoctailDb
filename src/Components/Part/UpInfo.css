@@ -1,0 +1,136 @@
+
+.upinfo-first {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    border-bottom: 2px solid #fff;
+}
+
+.text-upinfo {
+    width: 684px;
+    text-align: center;
+    display: grid;
+    margin-top: 50px;
+}
+
+.text-upinfo button {
+    width: 150px;
+    height: 34px;
+    background: #FFC439;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #fff6e1;
+}
+.text-upinfo div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-upinfo button img {
+    width: 50.5px;
+    height: 16px;
+}
+
+.upinfo-second {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    grid-gap: 30px;
+    margin-top: 30px;
+    height: 100px;
+    border-bottom: 2px solid #CCCCCC;
+    align-items: center;
+}
+
+.upinfo-second button {
+    width: 40px;
+    height: 49.8px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: white;
+    border-left: 2px solid #CCCCCC;
+    margin-top: 10px;
+    transform: translateY(1.5px);
+    color: #000;
+    &:hover{
+        background-color:#fff !important;
+    }
+}
+
+.upinfo-second input {
+    width: 279px;
+    height: 34px;
+    border-radius: 4px 0 0 4px;
+    padding: 5px;
+}
+
+
+@media (max-width: 1200px) {
+    .upinfo-first, .upinfo-second {
+        width: 90%;
+    }
+
+    .text-upinfo {
+        width: 100%;
+    }
+
+    .upinfo-second input {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .upinfo-first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-upinfo {
+        margin-top: 20px;
+    }
+
+    .text-upinfo button {
+        margin-top: 10px;
+    }
+
+    .upinfo-second {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .upinfo-second input {
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .upinfo-first, .upinfo-second {
+        width: 100%;
+    }
+
+    .text-upinfo button {
+        width: 120px;
+        height: 30px;
+    }
+
+    .upinfo-second input {
+        width: 100px;
+    }
+
+    .upinfo-second button {
+        width: 30px;
+        height: 36.4px;
+        transform: translateY(5px);
+    }
+    .upinfo-second input{
+     height: 20px ;
+    }
+}

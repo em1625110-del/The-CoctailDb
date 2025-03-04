@@ -1,0 +1,26 @@
+.meals {
+    width: 200px !important;
+    height: 500px;
+    position: relative;
+    padding: 10px 0px;
+    padding-top: 14px;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .meals div {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+
+  .meals h2 {
+    color: #D57D1F;
+    transition: color 0.3s ease;
+    /* Плавное изменение цвета текста */
+  }
+  
+  .meals h2:hover {
+    color: #FF9933;
+  }

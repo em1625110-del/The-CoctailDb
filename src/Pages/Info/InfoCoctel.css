@@ -1,0 +1,139 @@
+/* InfoCoctel.css */
+
+.info-coctel {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.coctel-card {
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.coctel-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.coctel-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 1000px;
+    
+}
+
+.coctel-image {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.coctel-ingredients {
+   width: 400px;
+   /* margin-left: -150px; */
+   margin-top: -17px;
+}
+
+.coctel-ingredients h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.coctel-ingredients ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 609px;
+    /* margin-left: 100px; */
+    /* margin-top: -10px; */
+}
+
+.coctel-ingredients ul div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 180px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: all 0.4s ease-out;
+    margin-top: 40px;
+    &:hover{
+        border: 1px solid #FF9933;
+        color: #FF9933;
+        transform:  translateY(-20px);
+    }
+}
+
+.coctel-ingredients img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1em;
+
+    line-height: 1.5;
+}
+.arrows{
+    display: flex;
+    /* justify-content: center; */
+    /* width: 80%; */
+}
+.arrows img{
+    width: 40%;
+    cursor: pointer;
+}
+
+button{
+    background-color: #FF9933;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    &:hover{
+        background-color: #FF6600;
+    }
+}
+.btn-class{
+    display: flex;
+    gap: 25px;
+}
+.btn2{
+    background-color: #10a528;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    &:hover{
+        background-color: #008000;
+    }
+}

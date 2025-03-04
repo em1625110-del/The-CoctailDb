@@ -1,0 +1,96 @@
+
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.ingr{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    
+    justify-content: center;
+    gap: 0px;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.error {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-top: 50px;
+}
+
+.noMeals {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.ingredientHeader {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.arrows img{
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+
+.title {
+    font-size: 32px;
+    color: #333;
+}
+.ingredientHeader:hover .title{
+    color: #D57D1F;
+    transition: all 0.5s ease;
+}
+
+.ingredientImage {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+.food{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1100px;
+     
+    
+}
+
+.mealCard {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.mealTitle {
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+}
+.mealsContainer1{
+    max-width: 1500px;
+}
+
